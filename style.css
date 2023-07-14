@@ -1,4 +1,41 @@
-*{
+* {
     margin: 0;
     padding: 0;
+}
+header {
+    width: 100%;
+    background-color: rgb(13, 13, 13);
+    display: flex;
+    flex-direction: row;
+    display: table;
+}
+#logo { 
+    margin: 25px;
+    margin-left: 125px;
+    width: 132px;
+    height: 25px;
+}
+ul li{
+    color: rgb(165, 165, 165);
+    float:left;
+    list-style: none;
+}
+ul li:hover{
+    cursor: pointer;
+    color: white;
+}
+ul li i{
+    color: white;
+}
+#a li{
+    padding: 25px;
+}
+#a{
+    margin-right: 900px;
+}
+#b li{
+    padding: 20px;
+}
+#b{
+    margin-left: -200px;
 }
