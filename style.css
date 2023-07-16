@@ -4,54 +4,10 @@
 }
 header {
     width: 100%;
+    height: 72px;
     background-color: rgb(13, 13, 13);
-    display: flex;
-    flex-direction: row;
     display: table;
-}
-#logo { 
-    margin: 25px;
-    margin-left: 125px;
-    width: 132px;
-    height: 25px;
-}
-ul li{
-    color: rgb(165, 165, 165);
-    float:left;
-    list-style: none;
-}
-ul li:hover{
-    cursor: pointer;
-    color: white;
-}
-ul li i{
-    color: white;
-}
-#a li{
-    padding: 25px;
-}
-#a{
-    margin-right: 900px;
-}
-#b li{
-    padding: 20px;
-}
-#b{
-    margin-left: -400px;
-}
-
-
-#d{
-    color: rgb(234, 234, 234);
-    font-size: 45px;
-    font-weight: 100;
-}
-#e{
-    color: rgb(205, 205, 205);
-    font-size: 15px;
-}
-#f{
-    color: white;
+    position: fixed; /*스크롤 영향X 메뉴 고정*/
 }
 .flex{
     display: flex;
@@ -59,21 +15,98 @@ ul li i{
 .auto{
     flex-direction: row;
 }
+#menu-wrap {
+    width:1200px;
+    margin:0 auto;
+    margin-top: 20px;
+}
+.menu {
+    float:left;
+    text-align:center;
+}
+.menu li {
+    display:inline-block;
+    text-align:center;
+    color: rgb(165, 165, 165);
+    float:left;
+    list-style: none;
+}
+.menu_left{
+    margin-left: 60px;
+}
+.menu_right{
+    margin-left: 40px;
+}
+#menu_right{
+    margin-left: 200px;
+}
+.menu li:hover{
+    cursor: pointer;
+    color: white;
+}
+.menu li i{
+    color: white;
+}
+#logo{
+    width: 130px;
+}
+
+
+
 #main{
     width: 100%;
     height: 880px;
     display: block; /*img 밑 여백 없애기*/
 }
+.main_a{
+    background-color: rgb(13, 13, 13);
+    padding-left: 270px;
+    padding-top: 200px;
+}
+.big_text{
+    color: rgb(234, 234, 234);
+    font-size: 45px;
+    font-weight: 100;
+}
+.small_text{
+    color: rgb(205, 205, 205);
+    font-size: 15px;
+}
+#c{
+    margin: auto;
+}
+#f{
+    color: white;
+}
+#check-btn{
+    display: none;
+}
+#check-btn:checked ~ .menubars {
+    display: block;
+}
+.menubars{
+    display: none;
+}
+.menubars li{
+    color: white;
+}
 #all{
     margin-right: 250px;
+    display: inline-block; 
 }
 .all{
     width: 300px;
 }
-.main_a{
-    padding-left: 270px;
+.li{
+    padding: 5px;
+    list-style-type: none;
+    background-color: aqua;
+}
+.main_b{
     background-color: rgb(13, 13, 13);
-    padding-top: 200px;
+}
+.main_c{
+    background-color: rgb(40, 40, 40);
 }
 .car{
     width: 295px;
@@ -111,19 +144,27 @@ a{
     text-decoration: none;
     color: white;
 }
-.li{
-    padding: 5px;
-    list-style-type: none;
+.ruswjrsorl{
 }
-#check-btn{
-    display: none;
+#ruswjrsorl{
+    width: 100px;
+    background-color: aqua;
 }
-#check-btn:checked ~ .menubars {
-    display: block;
+.chatbot{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    border: solid black 1px;
+
+    position: fixed;
 }
-.menubars{
-    display: none;
+#chatbot{
+    margin: 15px;
 }
-.menubars li{
+.dkssyd{
+    display: flex;
+}
+.qksrk{
+    margin: auto;
     color: white;
-}
+}   
