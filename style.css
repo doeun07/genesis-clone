@@ -55,7 +55,7 @@ header {
 
 #main{
     width: 100%;
-    height: 100%;
+    height: 940px;
     display: block; /*img 밑 여백 없애기*/
 }
 .main_a{
@@ -100,10 +100,11 @@ header {
 .li{
     padding: 5px;
     list-style-type: none;
-    background-color: aqua;
+    background-color: rgb(43, 43, 43);
 }
 .main_b{
     background-color: rgb(13, 13, 13);
+    padding-top: 950px;
 }
 .main_c{
     background-color: rgb(40, 40, 40);
@@ -112,7 +113,7 @@ header {
     width: 295px;
     padding: 45px 45px 35px 45px;
     color: rgb(183, 183, 183);
-    background-color: rgb(34, 34, 34);
+    background-color: rgb(25, 25, 25);
 }
 .car_img{
     width: 300px;
@@ -121,7 +122,7 @@ header {
 }
 .car_button{
     width: 300px;
-    height: 50px;
+    height: 55px;
     border: solid white 1px;
     background-color: rgb(23, 23, 23);
     color: white;
@@ -144,11 +145,8 @@ a{
     text-decoration: none;
     color: white;
 }
-.ruswjrsorl{
-}
 #ruswjrsorl{
     width: 100px;
-    background-color: aqua;
 }
 .chatbot{
     width: 80px;
@@ -162,9 +160,77 @@ a{
     margin: 15px;
 }
 .dkssyd{
-    display: flex;
+    list-style: none;
+    margin-top: 280px;
 }
 .qksrk{
-    margin: auto;
+    margin-right: 250px;
     color: white;
-}   
+    text-align: center;
+    float: left;
+}
+.qksrk:hover{
+    cursor: pointer;
+}
+#icon{
+    margin-bottom: 25px;
+}
+title{
+    color: white;
+}
+.the_awards{
+    margin-top: 700px;
+}
+#design{
+    width: 100%;
+    float: left;
+}
+.tltl{
+    text-align: center;
+    margin-top: 100px;
+}
+#tmvpdltm{
+    width: 820px;
+    height: 470px;
+}
+#fhemxmflq{
+    width: 820px;
+    height: 470px;
+    margin-left: 40px;
+}
+#G70{
+    width: 100%;
+    height: 870px;
+}
+#black{
+    color: black;
+    text-align: center;
+}
+#instagram{
+    width: 550px;
+    height: 550px;
+}
+#더보기_but{
+    display: inline-block;
+    width: 240px;
+    height: 60px;
+    background-color: white;
+    border: solid black 1px;
+    font-size: 16px;
+}
+#더보기_but:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+#dusrhks{
+    color: black;
+    text-align: center;
+}
+#dlqpsxm{
+    color: black;
+}
+.dlqpsxm{
+    width: 100px;
+    height: 100px;
+}
