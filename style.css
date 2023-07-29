@@ -72,46 +72,48 @@ header {
     color: rgb(205, 205, 205);
     font-size: 15px;
 }
+
+
 .dropdown{
     position : relative;
     display : inline-block;
-  }
-  
-  .dropbtn{
+}
+.dropbtn{
+    color: white;
     border: solid 0px;
-    border-bottom: solid black 1px;
-    background-color: #f5f5f5;
-    color : rgb(37, 37, 37);
+    border-bottom: solid white 1px;
+    background-color: rgb(13, 13, 13);
     padding : 12px;
-    width :200px;
+    width :300px;
     cursor : pointer;
-    font-size : 12px;
-  }
-  .dropdown-content{
+    font-size : 15px;
+}
+.dropdown-content{
     display : none;
     position : absolute;
     z-index : 1; /*다른 요소들보다 앞에 배치*/
-    background-color: #f9f9f9;
-    min-width : 200px;
-  }
-  
-  .dropdown-content a{
+    background-color: rgb(13, 13, 13);
+    min-width : 300px;
+}
+.dropdown-content a{
     display : block;
     text-decoration : none;
-    color : rgb(37, 37, 37);
-    font-size: 12px;
+    color: rgb(100, 100, 100);
+    font-size: 14px;
     padding : 12px 20px;
-  }
+}
   
-  .dropdown:hover .dropdown-content {
+.dropdown:hover .dropdown-content {
     display: block;
-  }
-  .drop{
-    border-bottom: solid black 1px;
-  }
-  .drop:hover{
+}
+.drop{
+    border-bottom: solid rgb(100, 100, 100) 1px;
+}
+.drop:hover{
     color: white;
-  }
+}
+
+
 #c{
     margin: auto;
 }
