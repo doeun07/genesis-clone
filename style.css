@@ -72,18 +72,48 @@ header {
     color: rgb(205, 205, 205);
     font-size: 15px;
 }
+.dropdown{
+    position : relative;
+    display : inline-block;
+  }
+  
+  .dropbtn{
+    border: solid 0px;
+    border-bottom: solid black 1px;
+    background-color: #f5f5f5;
+    color : rgb(37, 37, 37);
+    padding : 12px;
+    width :200px;
+    cursor : pointer;
+    font-size : 12px;
+  }
+  .dropdown-content{
+    display : none;
+    position : absolute;
+    z-index : 1; /*다른 요소들보다 앞에 배치*/
+    background-color: #f9f9f9;
+    min-width : 200px;
+  }
+  
+  .dropdown-content a{
+    display : block;
+    text-decoration : none;
+    color : rgb(37, 37, 37);
+    font-size: 12px;
+    padding : 12px 20px;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .drop{
+    border-bottom: solid black 1px;
+  }
+  .drop:hover{
+    color: white;
+  }
 #c{
     margin: auto;
-}
-#all{
-    margin-right: 250px;
-    display: inline-block;
-}
-.all_1{
-    color: white;
-}
-.all{
-    width: 300px;
 }
 #check-btn{
     display: none;
@@ -251,59 +281,4 @@ title{
 .notice ul li{
     float: left; /*가로로 배치*/
     color: white;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.menu1 {
-    width: 300px;
-    overflow: hidden;
-    margin: 150px auto;
-  }
-  
-  .menu1 > li {
-    width: 100%;
-    text-align: center;
-    line-height: 40px;
-    background-color: #5778ff;
-  }
-  
-  .menu1 a {
-    color: #fff;
-  }
-  
-  .submenu1 > li {
-    line-height: 50px;
-    background-color: #94a9ff;
-  }
-  
-  .submenu1 {
-    height: 0; /*ul의 높이를 안보이게 처리*/
-    overflow: hidden;
-  }
-  .menu1 > li:hover {
-    background-color: #94a9ff;
-    transition-duration: 0.5s;
-  }
-  
-  .menu1 > li:hover .submenu1 {
-    height: 250px; /*서브메뉴 li한개의 높이 50*5*/
-    transition-duration: 1s;
 }
