@@ -221,6 +221,12 @@ title{
 .the_awards{
     margin-top: 700px;
 }
+.design{
+    width: 700px;
+    height: 800px;
+    background-color: black;
+    margin: 0;
+}
 #design{
     width: 100%;
     float: left;
