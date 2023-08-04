@@ -64,13 +64,22 @@ header {
     padding-top: 200px;
 }
 .big_text{
-    color: rgb(234, 234, 234);
+    color: white;
     font-size: 45px;
+    font-weight: 100; /*폰트 두께*/
+}
+.middle_text{
+    color: white;
+    font-size: 24px;
     font-weight: 100;
 }
 .small_text{
-    color: rgb(205, 205, 205);
+    color: white;
     font-size: 15px;
+}
+.very_small_text{
+    color: white;
+    font-size: 13px;
 }
 
 
@@ -140,6 +149,9 @@ header {
     padding: 5px;
     list-style-type: none;
     background-color: rgb(43, 43, 43);
+}
+.read_white{
+    font-style: none;
 }
 .main_b{
     background-color: rgb(13, 13, 13);
@@ -257,6 +269,11 @@ title{
 #instagram{
     width: 550px;
     height: 550px;
+    filter: brightness(1);
+    transition: 5s;
+}
+#instagram :hover{
+    filter: brightness(0.5);
 }
 #더보기_but{
     display: inline-block;
@@ -289,4 +306,104 @@ title{
 .notice ul li{
     float: left; /*가로로 배치*/
     color: white;
+}
+
+.footer{
+    display: flex;
+    color: white;
+}
+#footer{
+    list-style: none;
+    cursor : pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.car_button, .car_button:hover, .car_button:focus, .car_button:active, .car_button:link {
+    text-decoration: none;
+    color:inherit;
+ }
+.car_button {
+    border: 1px solid #ffffff;
+    padding: 2% 14%;
+    position: relative;
+    z-index: 1;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+.car_button:after {
+    content: "";
+    width: 0%;
+    height: 100%;
+    top: 0;
+    position: absolute;
+    left: 0;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+    background: #ffffff;
+}
+.car_button:hover {
+    color: #333;
+}
+.car_button:hover:after {
+    width: 100%;
+    z-index: -1;
 }
